@@ -1,0 +1,15 @@
+.menu-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center ;
+  width: 500px;
+
+  @media screen and (max-width:768px){
+    display: none;
+  }
+}
+
+.menu{
+  color: white;
+  cursor: pointer;
+}
